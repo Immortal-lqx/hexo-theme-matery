@@ -320,7 +320,7 @@ valine:
   visitor: true
   avatar: 'mm' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
   pageSize: 10
-  placeholder: 'just go go' # Comment Box placeholder
+  placeholder: '填上邮箱可以收到我的回复呦ฅ^ω^ฅ' # Comment Box placeholder
   background: /medias/comment_bg.png
   coolpushkey: 
 

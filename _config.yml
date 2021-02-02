@@ -19,9 +19,10 @@ menu:
   Contact:
     url: /contact
     icon: fas fa-comments
-  Friends:
-    url: /friends
-    icon: fas fa-address-book
+#  Friends:
+#    url: /friends
+#    icon: fas fa-address-book
+#  由于没有可以加上去的友链，以及友链下的评论功能还不会去除，先注释掉，把友链藏起来
   # 二级菜单写法如下
   #Medias:
   #  icon: fas fa-list

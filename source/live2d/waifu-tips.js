@@ -132,11 +132,11 @@ function loadWidget(config) {
 		fetch("https://v1.hitokoto.cn")
 			.then(response => response.json())
 			.then(result => {
-				const text = `这句一言来自 <span>「${result.from}」</span>，是 <span>${result.creator}</span> 在 hitokoto.cn 投稿的。`;
+				//const text = `这句一言来自 <span>「${result.from}」</span>，是 <span>${result.creator}</span> 在 hitokoto.cn 投稿的。`;
 				showMessage(result.hitokoto, 6000, 9);
-				setTimeout(() => {
-					showMessage(text, 4000, 9);
-				}, 6000);
+				//setTimeout(() => {
+				//	showMessage(text, 4000, 9);
+				//}, 6000);
 			});
 	}
 
@@ -178,6 +178,8 @@ function loadWidget(config) {
 						return;
 					}
 				});
+
+				//TODO 这里一次click居然会响应两次，该如何解决呢？？？
 				window.addEventListener("click", event => {
 					for (let { selector, text } of result.click) {
 						if (!event.target.matches(selector)) continue;

@@ -312,10 +312,10 @@ livere:
 # To use it, activate the configuration item and set appId and appKey.
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
-  enable: false
-  appId:
-  appKey:
-  notify: false
+  enable: true
+  appId: bMq5alM79AoOmPl5Q65aeVqI-gzGzoHsz
+  appKey: O0Q21Re9hVoBb41y6euVKCQq
+  notify: true
   verify: false
   visitor: true
   avatar: 'mm' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide

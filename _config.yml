@@ -315,7 +315,7 @@ valine:
   enable: true
   appId: bMq5alM79AoOmPl5Q65aeVqI-gzGzoHsz
   appKey: O0Q21Re9hVoBb41y6euVKCQq
-  notify: true
+  notify: false
   verify: true
   visitor: true
   avatar: 'mm' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide

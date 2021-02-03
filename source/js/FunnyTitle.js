@@ -8,7 +8,7 @@
      }
      else {
          $('[rel="icon"]').attr('href', "/favicon.png");
-         document.title = '(ฅ>ω<*ฅ) 噫？又好了~' + OriginTitle;
+         document.title = '(ฅ>ω<*ฅ) 噫？又好了~';
          titleTime = setTimeout(function () {
              document.title = OriginTitle;
          }, 5000);
